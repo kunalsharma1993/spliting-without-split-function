@@ -1,4 +1,4 @@
-s = input("type the string\n")
+s = input("Type the string\n")
 buffer = ''
 l = []
 
@@ -15,4 +15,10 @@ for i in s:
   else:
     buffer += i 
     
-print("list:", l)
+print("list is:", l)
+
+# We can do it with split function also.
+
+s = input("Type the string\n")
+l = s.split(' ')
+print("List is":, l)
